@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+* {
+  box-sizing: border-box;
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+</style>
+</head>
+<body>
+
+<h2>Images of a Beautiful Nature</h2>
+<p>These are the tree images of the things I love so much is Nature, Flower, Warm Weather, Snow, Forest, and Mountains :) </p>
+
+<div class="row">
+  <div class="column">
+    <img src="winter-2576611_640.jpeg" alt="Snow" style="width:90%">
+  </div>
+  <div class="column">
+    <img src="forest_2723899_3x2.avif" alt="Forest" style="width:100%">
+  </div>
+  <div class="column">
+    <img src="mountains_205125227_a37cc00f87_b.jpeg" alt="Mountains" style="width:100%">
+  </div>
+</div>
+
+</body>
+</html>
